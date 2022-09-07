@@ -1,6 +1,6 @@
 #!/bin/bash
 # File to read domains from
-blocklist_file="<dns-bl-filename>"
+blocklist_file="<dns_blocklist_file>"
 
 blockedcount=0
 percentage=0
