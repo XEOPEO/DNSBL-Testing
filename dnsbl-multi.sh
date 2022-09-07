@@ -4,5 +4,5 @@ files=$(ls wordfiles/)
 for file in $files
 do
   let count++
-  /bin/bash sub-dnsbl.sh $file > "results/result${count}.txt"&
+  /bin/bash dnsbl-sub.sh $file > "results/result${count}.txt"&
 done
