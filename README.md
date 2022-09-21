@@ -1,6 +1,6 @@
 # DNSBL-Testing
 Script is used to test your DNS Server/Provider on blocklist capability.  
-Recommended test blocklists are Abuse.ch and Firebog.net
+Recommended test blocklists are Abuse.ch and Firebog.net  
 This can take a long time when using the `dnsbl-test.sh` since it is sequential.
 
 For faster testing I recommend to split the blocklist into multiple shortlists with the `split` command.  
